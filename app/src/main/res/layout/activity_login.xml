@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.LoginActivity">
+    <ImageView
+        android:id="@+id/foodLogo"
+        android:layout_width="325dp"
+        android:layout_height="433dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="-113dp"
+        android:src="@drawable/foodpic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="265dp"
+        android:fontFamily="@font/mistral"
+        android:text="Muffle"
+        android:textColor="#E7415C"
+        android:textSize="80sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="370dp"
+        android:fontFamily="@font/gadugi"
+        android:text="Hey there! Sign in to continue"
+        android:textSize="24dp"
+
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/etMobileNumber"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="415dp"
+        android:layout_marginRight="46dp"
+        android:background="@drawable/text_box"
+        android:drawableLeft="@drawable/ic_action_phone"
+        android:drawablePadding="3dp"
+        android:fontFamily="@font/gadugi"
+        android:hint="@string/mobile_number"
+        android:inputType="number"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="475dp"
+        android:layout_marginRight="46dp"
+        android:background="@drawable/text_box"
+        android:drawableLeft="@drawable/ic_action_password"
+        android:drawablePadding="3dp"
+        android:fontFamily="@font/poppins"
+        android:hint="@string/password"
+        android:inputType="numberPassword"
+        android:maxLength="6"
+        android:maxLines="1"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/txtForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:layout_marginTop="470dp"
+        android:fontFamily="@font/gadugi"
+        android:padding="8dp"
+        android:text="@string/forgot_password"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/black" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_anchor="@+id/txtForgotPassword"
+        app:layout_anchorGravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center">
+        <TextView
+            android:id="@+id/txtAsk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="@font/gadugi"
+            android:padding="8dp"
+            android:text="Not a member yet?"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/txtRegisterYourself"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-14dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/txtAsk"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="@font/gadugi"
+            android:padding="8dp"
+            android:text="Register Now"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#E7415C" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="46dp"
+            android:layout_marginTop="535dp"
+            android:layout_marginRight="46dp"
+            android:background="@drawable/remove_cart_button_background"
+
+            android:fontFamily="@font/gadugi"
+            android:text="@string/login"
+            android:textAllCaps="false"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:navigationBarColor">@android:color/white</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+
+    <style name="GadugiTextAppearance">
+        <item name="android:fontFamily">@font/gadugi</item>
+    </style>
+
+    <style name="NavigationViewStyle">
+        <item name="android:textSize">@dimen/navigation_drawer_text_size</item>
+    </style>
+    <style name="MyTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:navigationBarColor">@android:color/white</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="colorPrimaryDark">@android:color/black</item>
+
+    </style>
+    <style name="HomeTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="android:navigationBarColor">@android:color/white</item>
+    <item name="android:windowLightNavigationBar">true</item>
+    <item name="colorPrimaryDark">@android:color/black</item>
+    </style>
+    <style name="DrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">#e7415c</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#E7415C</item>
+        <item name="colorPrimaryDark">#E7415C</item>
+        <item name="colorAccent">#E7415C</item>
+        <item name="android:navigationBarColor">#E7415C</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+
+    <style name="MyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:navigationBarColor">@android:color/white</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="colorPrimaryDark">@android:color/black</item>
+    </style>
+    <style name="HomeTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:navigationBarColor">@android:color/white</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="colorPrimaryDark">@android:color/black</item>
+    </style>
+</resources>
